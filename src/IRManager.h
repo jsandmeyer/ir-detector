@@ -21,8 +21,8 @@ public:
         DETECTED,
         CLEARED,
     };
-    static constexpr uint8_t irSensorPin = PA5;
-    static constexpr uint8_t irSensorInterrupt = PCINT5;
+    static constexpr uint8_t irSensorPin = PA6;
+    static constexpr uint8_t irSensorInterrupt = PCINT6;
     IRManager();
     static void configurePWM();
     static void configureInterrupts();

@@ -4,8 +4,8 @@
 
 class ADCManager {
 public:
-    static constexpr uint8_t adcPin = PA1;
-    static constexpr uint8_t adcChannel = _BV(MUX0);
+    static constexpr uint8_t adcPin = PA5;
+    static constexpr uint8_t adcChannel = _BV(MUX2) | _BV(MUX0); // datasheet pgs. 105-106
     static void configureADC();
     static uint16_t readADC();
 };

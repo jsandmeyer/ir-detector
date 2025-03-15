@@ -21,5 +21,5 @@ uint16_t ADCManager::readADC() {
         /* wait for ADSC to return to 0 */
     }
 
-    return (static_cast<uint16_t>(ADCL) + (static_cast<uint16_t>(ADCH) << 8u)) & 0x03FF;
+    return ((ADCL) + ((ADCH) << 8u)) & 0x03FF;
 }

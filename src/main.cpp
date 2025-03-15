@@ -54,7 +54,9 @@ ISR(PCINT0_vect) {
         RelayManager::handleIRDetected();
 	} else if (state == IRManager::State::CLEARED) {
 	    const auto adcValue = static_cast<unsigned long>(ADCManager::readADC());
-        const auto ticks = adcValue * RelayManager::delayMultiplier / RelayManager::maxADC;
+	    const auto ticks = (adcValue * RelayManager::delayMultiplier) / RelayManager::maxADC;
+	    OCR0A = static_cast<uint8_t>(ticks);
+	    OCR0B = static_cast<uint8_t>(ticks);
 	    relayManager.handleIRCleared(ticks);
 	}
 }

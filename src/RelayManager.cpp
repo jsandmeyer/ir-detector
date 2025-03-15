@@ -6,7 +6,10 @@ RelayManager::RelayManager() = default;
 void RelayManager::configurePWM() {
   	// Timer 1 will turn off the relay
 	// It is only enabled when the relay is turned on (by setting CS12 to TCCR1B)
-	// DDRB |= _BV(DDB1);
+#ifdef DEBUG_RELAY_TIMER
+	DDRB |= _BV(DDB1); // temp: enable output on tpidata
+    TCCR1A = _BV(COM1A0); // temp: turns timer on tpidata
+#endif
     TCCR1B = _BV(WGM12);
     OCR1A = delayTimer;
     OCR1B = delayTimer;
@@ -18,14 +21,12 @@ void RelayManager::configureInterrupts() {
 }
 
 void RelayManager::configureOutputs() {
-    DDRA |= _BV(relayPin); // Relay
-    DDRB |= _BV(indicatorLedPin); // Detected Indicator LED
+    DDRA |= _BV(relayPin) | _BV(indicatorLedPin);
 }
 
 void RelayManager::handleIRDetected() {
 	TCCR1B &= ~_BV(CS12); // disable timer
-    PORTA |= _BV(relayPin); // turn on relay
-    PORTB |= _BV(indicatorLedPin); // turn on LED
+    PORTA |= _BV(relayPin) | _BV(indicatorLedPin);
 }
 
 void RelayManager::handleIRCleared(unsigned long const ticks) volatile {
@@ -35,15 +36,14 @@ void RelayManager::handleIRCleared(unsigned long const ticks) volatile {
         ticksRemaining = ticks;
     }
 
-    TCCR1B |= _BV(CS12); // enable timer
-	PORTB &= ~_BV(indicatorLedPin); // turn off LED
+    TCCR1B |= _BV(CS12); // enable timer, prescaler factor CLK_io/256
+	PORTA &= ~_BV(indicatorLedPin);
 }
 
 void RelayManager::tick() volatile {
   	if (ticksRemaining == 0) {
-	    TCCR1B &= ~_BV(CS12); // disable timer
-	    PORTB &= ~_BV(indicatorLedPin); // turn off LED
-	    PORTA &= ~_BV(relayPin); // turn off relay
+	    TCCR1B &= ~_BV(CS12) & ~_BV(CS11) & ~_BV(CS10); // disable timer
+	    PORTA &= ~_BV(indicatorLedPin) & ~_BV(relayPin);
 		return;
 	}
 
