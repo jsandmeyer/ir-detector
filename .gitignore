@@ -1,0 +1,7 @@
+pcb/**/*-backups*
+pcb/**/*.xml
+pcb/**/fp-info-cache
+pcb/**/*.lck
+
+.idea
+.pio
