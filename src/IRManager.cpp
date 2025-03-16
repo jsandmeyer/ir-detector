@@ -28,7 +28,7 @@ bool IRManager::isIRCurrentlyDetected() {
     return bit_is_clear(PINA, irSensorPin);
 }
 
-IRManager::State IRManager::updateIRState() volatile {
+IRManager::State IRManager::getIRState() volatile {
     const auto newState = isIRCurrentlyDetected();
 
     if (newState == state) {

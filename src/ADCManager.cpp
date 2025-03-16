@@ -5,9 +5,14 @@ void ADCManager::configureADC() {
     // Pin A1 has the variable resistor
     DDRA &= ~_BV(adcPin);
 
+    // Right half of ADMUX selects which channel to read, leave left half alone
     ADMUX &= 0xF0;
     ADMUX |= adcChannel; // select channel 1
-    DIDR0 = _BV(ADC1D); // disable digital input on ADC1
+
+    // Disable digital input on ADC1
+    DIDR0 = _BV(ADC1D);
+
+    // Enable the ADC
     ADCSRA |= _BV(ADEN);
     ADCSRA |= _BV(ADSC);
 }
@@ -21,5 +26,6 @@ uint16_t ADCManager::readADC() {
         /* wait for ADSC to return to 0 */
     }
 
-    return ((ADCL) + ((ADCH) << 8u)) & 0x03FF;
+    // read ADCH last, once you do, ADCL disappears
+    return (static_cast<uint16_t>(ADCL) + (static_cast<uint16_t>(ADCH) << 8u)) & 0x03FF;
 }
