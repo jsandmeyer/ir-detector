@@ -54,9 +54,16 @@ ISR(PCINT0_vect) {
         RelayManager::handleIRDetected();
 	} else if (state == IRManager::State::CLEARED) {
 	    const auto adcValue = static_cast<unsigned long>(ADCManager::readADC());
+#if DEBUG_RELAY_TIMER == 1
+	    // in debug mode, IR LED is adjusted based on ADC value for easy testing
+	    // use formula HZ = 8MHz / (2 * (1 + OCR0A)) or OCR0A = 4000/KHz - 1
+	    // or adcValue = ((4000/KHz) - 1)(1024/255)
+	    // adcValue should be between 0 and 1023 (inclusive)
+	    // for verification, ADC value 0 -> 4MHz, value 1023 -> 15.686KHz
+	    OCR0A = static_cast<uint8_t>(adcValue * 255UL / 1024UL);
+	    OCR0B = static_cast<uint8_t>(adcValue * 255UL / 1024UL);
+#endif
 	    const auto ticks = (adcValue * RelayManager::delayMultiplier) / RelayManager::maxADC;
-	    OCR0A = static_cast<uint8_t>(ticks);
-	    OCR0B = static_cast<uint8_t>(ticks);
 	    relayManager.handleIRCleared(ticks);
 	}
 }

@@ -10,7 +10,7 @@ class RelayManager {
 public:
     static constexpr uint32_t maxADC = 1024UL;
     static constexpr uint32_t relayHz = 125UL;
-    static constexpr uint32_t delayMultiplier = 2 * relayHz * DELAY_MAX_S; // runs twice per hz
+    static constexpr uint32_t delayMultiplier = 2 * relayHz * DELAY_MAX_S; // timer triggers interrupt on toggle (top/bottom), so runs at 2*relayHz
     static constexpr uint8_t delayTimer = F_CPU / (256 * 2 * relayHz) - 1; // 256 comes from using CS12 (by itself), see docs pg. 99
     static constexpr uint8_t indicatorLedPin = PA1;
     static constexpr uint8_t relayPin = PA4;

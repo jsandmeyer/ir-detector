@@ -6,7 +6,8 @@ RelayManager::RelayManager() = default;
 void RelayManager::configurePWM() {
   	// Timer 1 will turn off the relay
 	// It is only enabled when the relay is turned on (by setting CS12 to TCCR1B)
-#ifdef DEBUG_RELAY_TIMER
+#if DEBUG_RELAY_TIMER == 1
+    // in debug mode, relay timer output is sent to TPIDATA pin to verify relayHz
 	DDRB |= _BV(DDB1); // temp: enable output on tpidata
     TCCR1A = _BV(COM1A0); // temp: turns timer on tpidata
 #endif
