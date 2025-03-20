@@ -6229,6 +6229,24 @@
 				(hide yes)
 			)
 		)
+		(property "$/1" "$0.33"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$1.98"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5334c5fb-ec2b-46b3-a6db-eae9e68b986a")
 		)
@@ -6354,8 +6372,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RCS0402120R0FKED"
+		(property "Description" "RCS0402120RFKED"
 			(at 146.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/1" "$0.11"
+			(at 146.05 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$0.53"
+			(at 146.05 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Optional" "TRUE"
+			(at 146.05 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6433,6 +6478,24 @@
 				(hide yes)
 			)
 		)
+		(property "$/1" "$0.23"
+			(at 167.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$1.31"
+			(at 167.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f07bc1d-9c35-48d4-88c7-1c26bcc49249")
 		)
@@ -6494,6 +6557,24 @@
 			)
 		)
 		(property "Description" "TC42X-2-10E"
+			(at 160.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/1" "$0.45"
+			(at 160.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$3.79"
 			(at 160.02 101.6 0)
 			(effects
 				(font
@@ -6568,6 +6649,24 @@
 			)
 		)
 		(property "Description" "G6K-2G-Y-TR DC3"
+			(at 245.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/1" "$4.30"
+			(at 245.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$38.28"
 			(at 245.11 105.41 0)
 			(effects
 				(font
@@ -6721,7 +6820,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RCS040210K0FKED"
+			(at 87.63 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/1" "$0.11"
+			(at 87.63 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$0.52"
 			(at 87.63 149.86 0)
 			(effects
 				(font
@@ -6762,7 +6879,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Bridge_-AA+"
+		(property "Value" "CD-HD2006L"
 			(at 97.79 42.291 90)
 			(effects
 				(font
@@ -6790,6 +6907,24 @@
 		)
 		(property "Description" "Diode bridge, -ve/AC/AC/+ve"
 			(at 111.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/1" "$0.98"
+			(at 111.76 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$7.33"
+			(at 111.76 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,6 +6999,24 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/1" "$0.81"
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$6.86"
 			(at 48.26 35.56 0)
 			(effects
 				(font
@@ -6963,6 +7116,24 @@
 			)
 		)
 		(property "Description" "GRM21BR61E106MA73L"
+			(at 196.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/1" "$0.17"
+			(at 196.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$0.99"
 			(at 196.85 45.72 0)
 			(effects
 				(font
@@ -7089,7 +7260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 131.445 171.45 0)
 			(effects
 				(font
@@ -7180,6 +7351,24 @@
 		)
 		(property "Description" "TLVM365R15RDNR"
 			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/1" "$2.40"
+			(at 181.61 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$17.79"
+			(at 181.61 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7341,7 +7530,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GCM155R71H104KE02D"
+			(at 17.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/1" "$0.10"
+			(at 17.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$0.31"
 			(at 17.78 111.76 0)
 			(effects
 				(font
@@ -7384,7 +7591,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ATtiny20-U"
+		(property "Value" "ATtiny20-UUR"
 			(at 27.94 99.0599 0)
 			(effects
 				(font
@@ -7413,6 +7620,24 @@
 			)
 		)
 		(property "Description" "12MHz, 2kB Flash, 128B SRAM, No EEPROM, WLCSP-12"
+			(at 40.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/1" "$1.18"
+			(at 40.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$11.80"
 			(at 40.64 97.79 0)
 			(effects
 				(font
@@ -7651,6 +7876,24 @@
 				(hide yes)
 			)
 		)
+		(property "$/1" "$1.34"
+			(at 52.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$11.22"
+			(at 52.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d66c2bb7-b2e5-4e71-be82-ea53badc0115")
 		)
@@ -7822,6 +8065,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "$/1" "$0.65"
+			(at 113.03 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$4.52"
+			(at 113.03 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8225,6 +8486,24 @@
 				(hide yes)
 			)
 		)
+		(property "$/1" "$0.12"
+			(at 113.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$0.54"
+			(at 113.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "414dc080-ab58-4335-b19d-303528da615c")
 		)
@@ -8306,6 +8585,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 214.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/1" "$0.13"
+			(at 214.63 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$0.92"
+			(at 214.63 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8545,7 +8842,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN 10K"
+		(property "Value" "MUN5211DW1T1G"
 			(at 115.57 111.9377 0)
 			(effects
 				(font
@@ -8563,7 +8860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/dtc114ed-d.pdf"
 			(at 111.76 110.49 0)
 			(effects
 				(font
@@ -8572,7 +8869,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual NPN bias resistor transistor, 6 pin package"
+		(property "Description" "Dual NPN bias resistor transistor, 6 pin package, 10K, 10K"
+			(at 111.76 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/1" "$0.23"
+			(at 111.76 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$1.39"
 			(at 111.76 110.49 0)
 			(effects
 				(font
@@ -8720,7 +9035,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Würth Elekronik 860020575016"
+			(at 146.05 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/1" "$0.61"
+			(at 146.05 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$6.01"
 			(at 146.05 45.72 0)
 			(effects
 				(font
@@ -8790,6 +9123,24 @@
 			)
 		)
 		(property "Description" "GCM155R71H104KE02D"
+			(at 160.02 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/1" "$0.10"
+			(at 160.02 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$0.31"
 			(at 160.02 35.56 0)
 			(effects
 				(font
@@ -8923,7 +9274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "SML-LXFP0603UWW-TR"
 			(at 156.21 137.16 0)
 			(effects
 				(font
@@ -8933,6 +9284,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 156.21 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/1" "$0.44"
+			(at 156.21 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$2.99"
+			(at 156.21 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Optional" "TRUE"
 			(at 156.21 137.16 0)
 			(effects
 				(font
@@ -9041,7 +9419,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN 10K"
+		(property "Value" "MUN5211DW1T1G"
 			(at 217.17 124.6377 0)
 			(effects
 				(font
@@ -9059,7 +9437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/dtc114ed-d.pdf"
 			(at 213.36 123.19 0)
 			(effects
 				(font
@@ -9068,7 +9446,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual NPN bias resistor transistor, 6 pin package"
+		(property "Description" "Dual NPN bias resistor transistor, 6 pin package, 10K, 10K"
+			(at 213.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/1" "$0.23"
+			(at 213.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "$/10" "$1.39"
 			(at 213.36 123.19 0)
 			(effects
 				(font

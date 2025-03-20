@@ -614,13 +614,13 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -674,11 +674,29 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Optional",
+          "name": "Optional",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "$/10",
+          "name": "$/10",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "$/1",
+          "name": "$/1",
+          "show": true
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
