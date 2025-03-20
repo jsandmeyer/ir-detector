@@ -6676,88 +6676,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_Dual_NPN_NPN_BRT_E1B1C2E2B2C1")
-		(at 111.76 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c177726-cb19-4293-bd02-9c2c84883193")
-		(property "Reference" "Q1"
-			(at 115.57 109.3977 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN 10K"
-			(at 115.57 111.9377 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 111.76 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NPN bias resistor transistor, 6 pin package"
-			(at 111.76 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7acb7fbb-2197-4557-b2ad-132b8647b497")
-		)
-		(pin "4"
-			(uuid "be7aa476-05d8-421b-94ac-c52c7848847a")
-		)
-		(pin "5"
-			(uuid "3f40851b-f293-408d-89dc-d9264b15de4d")
-		)
-		(pin "1"
-			(uuid "4faa0fbf-e35b-4ff9-8a54-35bbb7ffab85")
-		)
-		(pin "2"
-			(uuid "208c728c-c06d-48b1-a94e-f6b5f0b7d7d4")
-		)
-		(pin "6"
-			(uuid "f60c7bbb-572a-447f-8c76-81f393eef328")
-		)
-		(instances
-			(project "ird-v17"
-				(path "/948f3839-19d5-425e-92c9-e52413ad1f5b"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 87.63 149.86 0)
 		(mirror y)
@@ -8121,88 +8039,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_Dual_NPN_NPN_BRT_E1B1C2E2B2C1")
-		(at 213.36 123.19 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "978f52b7-ad0b-4c58-a628-e16b7d1ea710")
-		(property "Reference" "Q1"
-			(at 217.17 122.0977 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN 10K"
-			(at 217.17 124.6377 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 213.36 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NPN bias resistor transistor, 6 pin package"
-			(at 213.36 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "92ff924b-dd39-46c3-a2e6-aeb99064048e")
-		)
-		(pin "4"
-			(uuid "15389917-e5c7-46c2-af10-6a768c4ee92b")
-		)
-		(pin "5"
-			(uuid "b7376fd9-7c4b-4764-95c2-17d57ebec833")
-		)
-		(pin "1"
-			(uuid "3c4c7509-d443-4da7-8f1d-3f83d702bf98")
-		)
-		(pin "2"
-			(uuid "42981a0c-9c29-47c6-8b31-4cd450f274a4")
-		)
-		(pin "6"
-			(uuid "035e51bd-dfcc-4fc1-b9a5-e5cdb9270b90")
-		)
-		(instances
-			(project "ird-v17"
-				(path "/948f3839-19d5-425e-92c9-e52413ad1f5b"
-					(reference "Q1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 101.6 142.24 0)
 		(unit 1)
@@ -8691,6 +8527,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_NPN_NPN_BRT_E1B1C2E2B2C1")
+		(at 111.76 110.49 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3a5fbd6-24a9-41ec-859c-96f12034a465")
+		(property "Reference" "Q1"
+			(at 115.57 109.3977 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NPN 10K"
+			(at 115.57 111.9377 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 111.76 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NPN bias resistor transistor, 6 pin package"
+			(at 111.76 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fdeb5f0d-e8e9-425e-b747-9ad6eebfee17")
+		)
+		(pin "4"
+			(uuid "d79f08c4-d826-4369-b515-7c5f14444817")
+		)
+		(pin "5"
+			(uuid "e74ba624-6246-4446-98dc-8cca37041bfe")
+		)
+		(pin "1"
+			(uuid "3c4c7509-d443-4da7-8f1d-3f83d702bf98")
+		)
+		(pin "2"
+			(uuid "42981a0c-9c29-47c6-8b31-4cd450f274a4")
+		)
+		(pin "6"
+			(uuid "035e51bd-dfcc-4fc1-b9a5-e5cdb9270b90")
+		)
+		(instances
+			(project "ird-v17"
+				(path "/948f3839-19d5-425e-92c9-e52413ad1f5b"
+					(reference "Q1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 111.76 34.29 0)
 		(unit 1)
@@ -9099,6 +9017,88 @@
 			(project "ird-v17"
 				(path "/948f3839-19d5-425e-92c9-e52413ad1f5b"
 					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_NPN_NPN_BRT_E1B1C2E2B2C1")
+		(at 213.36 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faba92c9-21bb-41a3-a5cc-f614d0689e43")
+		(property "Reference" "Q1"
+			(at 217.17 122.0977 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NPN 10K"
+			(at 217.17 124.6377 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 213.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NPN bias resistor transistor, 6 pin package"
+			(at 213.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7acb7fbb-2197-4557-b2ad-132b8647b497")
+		)
+		(pin "4"
+			(uuid "be7aa476-05d8-421b-94ac-c52c7848847a")
+		)
+		(pin "5"
+			(uuid "3f40851b-f293-408d-89dc-d9264b15de4d")
+		)
+		(pin "1"
+			(uuid "4c1508d3-4cd6-4d2c-a1fc-8a62cf85c02f")
+		)
+		(pin "2"
+			(uuid "b581c425-e184-46f5-b97d-d78fdf9dc4aa")
+		)
+		(pin "6"
+			(uuid "257851ff-4274-487c-a79f-549327fd7959")
+		)
+		(instances
+			(project "ird-v17"
+				(path "/948f3839-19d5-425e-92c9-e52413ad1f5b"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
