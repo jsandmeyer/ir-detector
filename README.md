@@ -46,6 +46,6 @@ Generally, each version is smaller or similar to the previous.
 * Version 7: Used TLC556.  Had heat issues from power supply.
 * Version 11: Used a switching power supply.  Still had stability issues.
 * Version 13: Switched to use an ATTINY84.  Switched to 4-layer board.  Bridge rectifier could not handle rapid shutoff of some transformers.
-* Version 14: Larger bridge rectifier.  Production model.  [Image](./blob/master/resources/v14_production_model.jpg)
+* Version 14: Larger bridge rectifier.  Production model.  [Image](./resources/v14_production_model.jpg)
 * Version 17: Updated layout, components (ATTINY20), and code.  Reduced to 2-layer board.  Manufacturing in process.
 
