@@ -50,7 +50,7 @@ int main() {
 
 /**
  * Invoked when something in PORTA is changed
- * Check to see if state on the pin we care about chagned, since it could fire for other reasons
+ * Check to see if the state on the pin we care about changed, since it could fire for other reasons
  */
 ISR(PCINT0_vect) {
     const auto state = irManager.getIRState();
@@ -70,7 +70,7 @@ ISR(PCINT0_vect) {
 	    OCR0B = static_cast<uint8_t>(adcValue * 255UL / 1024UL);
 #endif
 
-	    // get number of ticks based on ADC data, send to relay manager
+	    // get the number of ticks based on ADC data, send flag to relay manager
 	    const auto ticks = (adcValue * RelayManager::delayMultiplier) / RelayManager::maxADC;
 	    relayManager.handleIRCleared(ticks);
 	}

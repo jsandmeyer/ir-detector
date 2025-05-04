@@ -6346,7 +6346,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "750R"
 			(at 146.05 133.35 90)
 			(effects
 				(font
@@ -6372,7 +6372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RCS0402120RFKED"
+		(property "Description" "RCS0402750RFKED"
 			(at 146.05 137.16 0)
 			(effects
 				(font
@@ -6556,7 +6556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TC42X-2-10E"
+		(property "Description" "TC42X-2-103E"
 			(at 160.02 101.6 0)
 			(effects
 				(font
@@ -6648,7 +6648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "G6K-2G-Y-TR DC3"
+		(property "Description" "G6K-2G-Y-TR DC5"
 			(at 245.11 105.41 0)
 			(effects
 				(font
@@ -6666,7 +6666,7 @@
 				(hide yes)
 			)
 		)
-		(property "$/10" "$38.28"
+		(property "$/10" "$40.57"
 			(at 245.11 105.41 0)
 			(effects
 				(font
@@ -7323,7 +7323,7 @@
 				)
 			)
 		)
-		(property "Value" "TLVM365R15RDNR"
+		(property "Value" "TLVM365R1RDNR"
 			(at 181.61 26.67 0)
 			(effects
 				(font
@@ -7349,7 +7349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TLVM365R15RDNR"
+		(property "Description" "TLVM365R1RDNR"
 			(at 181.61 45.72 0)
 			(effects
 				(font
@@ -8450,7 +8450,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27R"
+		(property "Value" "56R"
 			(at 115.57 100.3299 0)
 			(effects
 				(font
@@ -8477,7 +8477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RCS040227R0FKED"
+		(property "Description" "RCS040256R0FKED"
 			(at 113.03 99.06 0)
 			(effects
 				(font
